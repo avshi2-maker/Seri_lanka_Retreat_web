@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌿 Sri Lanka Wellness Retreat | Dr. Roni Sapir | January 2026</title>
+    
+    <meta name="description" content="Join a 10-day transformative wellness retreat in Sri Lanka. Yoga, Chinese Medicine, and Ayurveda. January 14-24, 2026. Guided in the spirit of Dr. Roni Sapir.">
+    
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #f5f3ed 0%, #e8dcc8 100%);
+    color: #3a3a3a;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #C9A961 0%, #B89654 100%);
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.header-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.header-subtitle {
+    font-size: 1.2em;
+    opacity: 0.9;
+}
+
+.hero {
+    background: linear-gradient(rgba(201, 169, 97, 0.1), rgba(201, 169, 97, 0.05));
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.8em;
+    color: #C9A961;
+    margin-bottom: 20px;
+}
+
+.hero-dates {
+    font-size: 1.5em;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+    margin: 30px 0;
+}
+
+section {
+    background: #fefdfb;
+    margin: 40px 0;
+    padding: 60px 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+}
+
+.section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    color: #C9A961;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.opening-text {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #555;
+    margin: 20px auto;
+    text-align: center;
+    max-width: 900px;
+}
+
+.bio-btn {
+    background: linear-gradient(135deg, #C9A961 0%, #B89654 100%);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-size: 1.1em;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(201, 169, 97, 0.3);
+    transition: all 0.3s ease;
+}
+
+.bio-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(201, 169, 97, 0.4);
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-icon {
+    font-size: 3em;
+    color: #C9A961;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.card-text {
+    color: #666;
+    line-height: 1.8;
+}
+
+.days-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.day-card {
+    background: linear-gradient(135deg, #fff 0%, #f9f8f5 100%);
+    padding: 25px;
+    border-radius: 15px;
+    border-left: 4px solid #C9A961;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.day-number {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    color: #C9A961;
+    margin-bottom: 10px;
+}
+
+.day-title {
+    font-size: 1.3em;
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.day-activities {
+    list-style: none;
+    padding: 0;
+}
+
+.day-activities li {
+    padding: 8px 0;
+    color: #666;
+    border-bottom: 1px solid #eee;
+}
+
+.day-activities li:last-child {
+    border-bottom: none;
+}
+
+.day-activities i {
+    color: #C9A961;
+    margin-right: 10px;
+}
+
+.pricing-card {
+    background: linear-gradient(135deg, #C9A961 0%, #B89654 100%);
+    color: white;
+    padding: 50px;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.price {
+    font-size: 4em;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.price-note {
+    font-size: 1.1em;
+    margin: 15px 0;
+}
+
+.cta-button {
+    background: #10b981;
+    color: white;
+    text-decoration: none;
+    padding: 18px 50px;
+    font-size: 1.3em;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 10px;
+    box-shadow: 0 5px 20px rgba(16, 185, 129, 0.3);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #059669;
+    transform: translateY(-3px);
+}
+
+.cta-secondary {
+    background: #C9A961;
+}
+
+.cta-secondary:hover {
+    background: #B89654;
+}
+
+footer {
+    background: linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact-info {
+    margin: 20px 0;
+    font-size: 1.1em;
+}
+
+.contact-info a {
+    color: #C9A961;
+    text-decoration: none;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+    background: white;
+    margin: 5% auto;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 700px;
+    max-height: 80vh;
+    overflow-y: auto;
+}
+
+.close-modal {
+    float: right;
+    font-size: 2em;
+    color: #999;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .header-title { font-size: 1.8em; }
+    .hero-title { font-size: 2em; }
+    .section-title { font-size: 2em; }
+    .price { font-size: 3em; }
+    .cta-button { padding: 15px 35px; font-size: 1.1em; }
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">🌿</div>
+        <h1 class="header-title">Dr. Roni Sapir, Ph.D</h1>
+        <p class="header-subtitle">Wellness & Yoga Retreat in Sri Lanka</p>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2 class="hero-title">Transform Your Life in Paradise</h2>
+            <p class="hero-dates">📅 January 14-24, 2026 | 📍 Welikande Estate, Kandy, Sri Lanka</p>
+            
+            <img src="https://sspark.genspark.ai/cfimages?u1=I40hXRM6OcHcAT5ossNJ2rGfbLc2ojMWXFlfTaRwNcOJor7BigbBUVdL8K1mzBfNhQfyxledhxPdghXkhSZCv6kOU6cCMuFTgfD8BOr5%2F39j0clrEtfOhaEq3d%2FkqxfE2D0OsFD8hQT%2FMzYQW6o6nAwl%2FhMqtoeEXfsyx1kesHDgxCdowZt0FykBmSULuiQ4aofKms2uO%2FyGp9V%2BtIHPh2r0eHAP2Ao4sG%2FUE1Q9sKBZ6VkwPOZCMeKqcuMs3z6R5w%3D%3D&u2=YzTZoDdIqnXqoe0k&width=2560" alt="Welikande Retreat" class="hero-image">
+            
+            <p class="opening-text">
+                Join us for a transformative 10-day journey at the stunning <strong>Welikande Yoga Retreat</strong> in Sri Lanka's lush mountains. This unique retreat integrates <strong>Yoga</strong>, <strong>Traditional Chinese Medicine</strong>, and <strong>Ayurveda</strong> to create a complete holistic healing experience.
+            </p>
+            
+            <p class="opening-text">
+                The journey is guided <strong>in the spirit of Dr. Roni Sapir, PhD</strong> – an expert in integrative medicine, bringing over three decades of clinical experience, teaching, and wellness innovation.
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container" style="text-align: center;">
+            <button class="bio-btn" onclick="openBioModal()">
+                <div>Who guides this journey?</div>
+                <strong>Learn About Dr. Roni Sapir, Ph.D</strong>
+            </button>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section-title">Why This Retreat is Special</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">🧘‍♀️</div>
+                    <h3 class="card-title">Daily Yoga & Meditation</h3>
+                    <p class="card-text">Morning and evening yoga sessions for all levels, guided meditation, and breathing exercises in a serene mountain setting.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🌿</div>
+                    <h3 class="card-title">Integrative Medicine</h3>
+                    <p class="card-text">Unique combination of Traditional Chinese Medicine, Ayurveda, and modern wellness practices guided in the spirit of Dr. Roni Sapir's expertise.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">💆‍♀️</div>
+                    <h3 class="card-title">Healing Treatments</h3>
+                    <p class="card-text">Daily Ayurvedic massages, acupuncture sessions, cupping therapy, and personalized wellness consultations.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🥗</div>
+                    <h3 class="card-title">Nourishing Cuisine</h3>
+                    <p class="card-text">Organic vegetarian meals prepared with Ayurvedic principles, fresh local ingredients, and healing spices.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🏞️</div>
+                    <h3 class="card-title">Nature Immersion</h3>
+                    <p class="card-text">Surrounded by Sri Lanka's breathtaking mountains, tea plantations, and tropical forests for deep relaxation.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">👥</div>
+                    <h3 class="card-title">Intimate Group</h3>
+                    <p class="card-text">Small group size ensures personalized attention, deeper connections, and a supportive community atmosphere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section-title">10-Day Journey Overview</h2>
+            <p class="opening-text">Each day is carefully designed to balance physical activity, healing treatments, learning, and relaxation.</p>
+            
+            <div class="days-grid">
+                <div class="day-card">
+                    <div class="day-number">Day 1</div>
+                    <div class="day-title">Welcome & Arrival</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-plane-arrival"></i> Airport pickup & transfer</li>
+                        <li><i class="fas fa-home"></i> Check-in & settling</li>
+                        <li><i class="fas fa-users"></i> Welcome ceremony</li>
+                        <li><i class="fas fa-utensils"></i> Welcome dinner</li>
+                    </ul>
+                </div>
+                
+                <div class="day-card">
+                    <div class="day-number">Days 2-9</div>
+                    <div class="day-title">Daily Practice</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-sun"></i> Morning yoga & meditation</li>
+                        <li><i class="fas fa-coffee"></i> Healthy breakfast</li>
+                        <li><i class="fas fa-spa"></i> Healing treatments</li>
+                        <li><i class="fas fa-utensils"></i> Organic lunch</li>
+                        <li><i class="fas fa-book-open"></i> Educational lectures (in the spirit of Dr. Roni Sapir)</li>
+                        <li><i class="fas fa-walking"></i> Nature walks</li>
+                        <li><i class="fas fa-moon"></i> Evening yoga</li>
+                        <li><i class="fas fa-utensils"></i> Dinner</li>
+                    </ul>
+                </div>
+                
+                <div class="day-card">
+                    <div class="day-number">Day 10</div>
+                    <div class="day-title">Closure & Departure</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-om"></i> Final morning practice</li>
+                        <li><i class="fas fa-heart"></i> Closing ceremony</li>
+                        <li><i class="fas fa-certificate"></i> Certificate of completion</li>
+                        <li><i class="fas fa-plane-departure"></i> Airport transfer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section-title">Complete 10-Day Program</h2>
+            <p class="opening-text">Here's what each day looks like in detail – a perfect balance of activity, learning, healing, and relaxation.</p>
+            
+            <div class="days-grid">
+                <div class="day-card">
+                    <div class="day-number">Day 1</div>
+                    <div class="day-title">Arrival and Acclimatization</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-plane-arrival"></i> Landing in Colombo</li>
+                        <li><i class="fas fa-car"></i> 4-hour scenic drive to retreat</li>
+                        <li><i class="fas fa-bed"></i> Room assignment, rest</li>
+                        <li><i class="fas fa-users"></i> 6:00 PM – Opening circle</li>
+                        <li><i class="fas fa-utensils"></i> 7:00 PM – Dinner</li>
+                    </ul>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-number">Day 2</div>
+                    <div class="day-title">Foundations of Health</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-om"></i> Morning yoga</li>
+                        <li><i class="fas fa-coffee"></i> Breakfast</li>
+                        <li><i class="fas fa-walking"></i> Village and rice field tour</li>
+                        <li><i class="fas fa-utensils"></i> Lunch</li>
+                        <li><i class="fas fa-book-open"></i> <strong>Lecture: What Is Holistic Health?</strong> (In the spirit of Dr. Roni Sapir)</li>
+                        <li><i class="fas fa-moon"></i> Evening yoga</li>
+                        <li><i class="fas fa-utensils"></i> Dinner</li>
+                    </ul>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-number">Day 3</div>
+                    <div class="day-title">Waterfalls and Flavors</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-om"></i> Morning yoga</li>
+                        <li><i class="fas fa-coffee"></i> Breakfast</li>
+                        <li><i class="fas fa-water"></i> Sri Lankan Cooking Workshop</li>
+                        <li><i class="fas fa-swimming-pool"></i> Waterfall Bathing</li>
+                        <li><i class="fas fa-utensils"></i> Lunch</li>
+                        <li><i class="fas fa-book-open"></i> <strong>The Five Elements</strong> (In the spirit of Dr. Roni Sapir)</li>
+                        <li><i class="fas fa-moon"></i> Evening yoga</li>
+                        <li><i class="fas fa-utensils"></i> Dinner</li>
+                    </ul>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-number">Day 4</div>
+                    <div class="day-title">Ayurveda and Healing</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-om"></i> Morning yoga</li>
+                        <li><i class="fas fa-coffee"></i> Breakfast</li>
+                        <li><i class="fas fa-spa"></i> Ayurveda Treatments / Temple Visit</li>
+                        <li><i class="fas fa-utensils"></i> Lunch</li>
+                        <li><i class="fas fa-book-open"></i> <strong>Lecture: Nutrition Principles</strong> (In the spirit of Dr. Roni Sapir)</li>
+                        <li><i class="fas fa-moon"></i> Evening yoga</li>
+                        <li><i class="fas fa-utensils"></i> Dinner</li>
+                    </ul>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-number">Day 5</div>
+                    <div class="day-title">Personal Journey (Part A)</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-om"></i> Morning yoga</li>
+                        <li><i class="fas fa-coffee"></i> Breakfast</li>
+                        <li><i class="fas fa-leaf"></i> Tea Plantations Tour</li>
+                        <li><i class="fas fa-walking"></i> Nature Walk</li>
+                        <li><i class="fas fa-utensils"></i> Lunch</li>
+                        <li><i class="fas fa-user-md"></i> Personal Sessions with Dr. Sapir (half group)</li>
+                        <li><i class="fas fa-moon"></i> Evening yoga</li>
+                        <li><i class="fas fa-utensils"></i> Dinner</li>
+                    </ul>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-number">Day 6</div>
+                    <div class="day-title">Full Day in Kandy City</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-clock"></i> 10:00 AM – Depart for Kandy</li>
+                        <li><i class="fas fa-place-of-worship"></i> Temple of the Tooth</li>
+                        <li><i class="fas fa-tree"></i> Royal Botanical Gardens</li>
+                        <li><i class="fas fa-shopping-basket"></i> Local Market</li>
+                        <li><i class="fas fa-music"></i> Traditional Kandy Dance</li>
+                        <li><i class="fas fa-home"></i> Return to retreat</li>
+                        <li><i class="fas fa-utensils"></i> Light dinner</li>
+                    </ul>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-number">Day 7</div>
+                    <div class="day-title">Creation and Reflection (Part B)</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-om"></i> Morning yoga</li>
+                        <li><i class="fas fa-coffee"></i> Breakfast</li>
+                        <li><i class="fas fa-palette"></i> Mandala or Pottery Workshop</li>
+                        <li><i class="fas fa-utensils"></i> Lunch</li>
+                        <li><i class="fas fa-user-md"></i> Personal Sessions with Dr. Sapir (second half)</li>
+                        <li><i class="fas fa-moon"></i> Evening yoga</li>
+                        <li><i class="fas fa-utensils"></i> Dinner</li>
+                    </ul>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-number">Day 8</div>
+                    <div class="day-title">Healing and Book Reading</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-om"></i> Morning yoga</li>
+                        <li><i class="fas fa-coffee"></i> Breakfast</li>
+                        <li><i class="fas fa-spa"></i> Ayurveda Treatments 2nd group</li>
+                        <li><i class="fas fa-meditation"></i> Meditation in Nature</li>
+                        <li><i class="fas fa-utensils"></i> Lunch</li>
+                        <li><i class="fas fa-book"></i> Reading from Dr. Sapir's Book</li>
+                        <li><i class="fas fa-moon"></i> Evening yoga</li>
+                        <li><i class="fas fa-utensils"></i> Dinner</li>
+                    </ul>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-number">Day 9</div>
+                    <div class="day-title">Seasons, Integration & Celebration</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-om"></i> Morning yoga</li>
+                        <li><i class="fas fa-coffee"></i> Breakfast</li>
+                        <li><i class="fas fa-walking"></i> Mindful Nature Walk</li>
+                        <li><i class="fas fa-utensils"></i> Lunch</li>
+                        <li><i class="fas fa-book-open"></i> <strong>Four Seasons & Biological Clock</strong> (In the spirit of Dr. Roni Sapir)</li>
+                        <li><i class="fas fa-moon"></i> Final Evening Yoga</li>
+                        <li><i class="fas fa-glass-cheers"></i> Festive Farewell Dinner</li>
+                    </ul>
+                </div>
+
+                <div class="day-card">
+                    <div class="day-number">Day 10</div>
+                    <div class="day-title">Summary and Farewell</div>
+                    <ul class="day-activities">
+                        <li><i class="fas fa-sun"></i> Morning</li>
+                        <li><i class="fas fa-heart"></i> Closing Circle & Integration Workshop</li>
+                        <li><i class="fas fa-coffee"></i> Farewell Breakfast</li>
+                        <li><i class="fas fa-plane-departure"></i> Transfer to Colombo Airport</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section-title">Healing Treatments Included</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-icon">💆</div>
+                    <h3 class="card-title">Ayurvedic Massage</h3>
+                    <p class="card-text">Traditional Abhyanga full-body oil massage using warm herbal oils to balance doshas, improve circulation, and promote deep relaxation.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">📍</div>
+                    <h3 class="card-title">Acupuncture</h3>
+                    <p class="card-text">Traditional Chinese Medicine technique using fine needles to balance energy flow, relieve pain, and promote natural healing.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🔥</div>
+                    <h3 class="card-title">Cupping Therapy</h3>
+                    <p class="card-text">Ancient healing technique using suction cups to improve blood flow, release muscle tension, and detoxify the body.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🌸</div>
+                    <h3 class="card-title">Shirodhara</h3>
+                    <p class="card-text">Ayurvedic treatment with warm oil gently poured over the forehead to calm the nervous system and promote mental clarity.</p>
+                </div>
+                
+                <div class="card">
+                    <div class="card-icon">🧘</div>
+                    <h3 class="card-title">Yoga Therapy</h3>
+                    <p class="card-text">Personalized yoga sequences addressing individual health concerns, combining asanas, pranayama, and meditation techniques.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h2 class="section-title">Investment in Your Wellness</h2>
+            <div class="pricing-card">
+                <div class="price">$2,400</div>
+                <p class="price-note"><strong>Early Bird Special:</strong> $2,200</p>
+                <p class="price-note">(Book before October 31, 2025)</p>
+                
+                <p class="price-note" style="margin-top: 30px;"><strong>Package Includes:</strong></p>
+                <ul style="list-style: none; padding: 0; font-size: 1.1em; line-height: 2;">
+                    <li>✓ 9 nights luxury accommodation</li>
+                    <li>✓ All meals (breakfast, lunch, dinner)</li>
+                    <li>✓ Daily yoga & meditation classes</li>
+                    <li>✓ All healing treatments</li>
+                    <li>✓ Educational workshops & lectures</li>
+                    <li>✓ Airport transfers (both ways)</li>
+                    <li>✓ All excursions & activities</li>
+                </ul>
+                
+                <p class="price-note" style="margin-top: 30px; font-size: 0.95em;">
+                    <strong>Not included:</strong> International flights, travel insurance, personal expenses, visa fees
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" style="text-align: center; margin: 50px 0;">
+        <div class="container">
+            <h2 class="section-title">Ready to Begin Your Journey?</h2>
+            <p class="opening-text">Limited spaces available. Reserve your spot today and take the first step toward transformation.</p>
+            
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd7Bb2QB14QGMBysheuw0sA6jKnUfutsCQRHt4I5Xpks2iyzA/viewform" target="_blank" class="cta-button">
+                Register Now 🌿
+            </a>
+            
+            <a href="https://wa.me/972544634923?text=Hello!%20I'm%20interested%20in%20the%20Sri%20Lanka%20Wellness%20Retreat" target="_blank" class="cta-button cta-secondary">
+                Contact Us on WhatsApp 💬
+            </a>
+            
+            <a href="https://www.welikandeyogaretreats.com/" target="_blank" class="cta-button cta-secondary">
+                View Accommodation 🏡
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content container">
+            <div class="contact-info">
+                <p><strong>For More Information:</strong></p>
+                <p>📞 Phone/WhatsApp: <a href="tel:+972544634923">+972-54-463-4923</a></p>
+                <p>📧 Email: <a href="mailto:info@sapir-cm-app.com">info@sapir-cm-app.com</a></p>
+                <p>🏨 Venue: <a href="https://www.welikandeyogaretreats.com/" target="_blank">Welikande Yoga Retreat</a></p>
+            </div>
+            
+            <p style="margin-top: 30px;">&copy; 2026 Dr. Roni Sapir Ph.D. All rights reserved.</p>
+            <p style="opacity: 0.7; font-size: 0.9em;">Guided in the spirit of integrative medicine and holistic wellness</p>
+        </div>
+    </footer>
+
+    <div id="bioModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeBioModal()">&times;</span>
+            <h2 style="color: #C9A961; font-family: 'Playfair Display', serif; margin-bottom: 20px;">Dr. Roni Sapir, Ph.D</h2>
+            <p style="line-height: 1.8; color: #555; margin: 15px 0;">
+                <strong>Dr. Roni Sapir</strong> is an expert in integrative medicine with over 30 years of experience combining Traditional Chinese Medicine, Ayurveda, and modern wellness approaches.
+            </p>
+            <p style="line-height: 1.8; color: #555; margin: 15px 0;">
+                <strong>Background:</strong> Ph.D in Complementary Medicine, certified acupuncturist, yoga therapist, and Ayurvedic practitioner. Author of multiple books on holistic health and wellness.
+            </p>
+            <p style="line-height: 1.8; color: #555; margin: 15px 0;">
+                <strong>Philosophy:</strong> Dr. Sapir believes in treating the whole person – body, mind, and spirit – using time-tested healing traditions combined with modern scientific understanding.
+            </p>
+            <p style="line-height: 1.8; color: #555; margin: 15px 0;">
+                <strong>Teaching:</strong> Has guided thousands of students and patients worldwide in their journey toward optimal health and inner peace.
+            </p>
+            <p style="line-height: 1.8; color: #555;">
+                This retreat is designed <strong>in the spirit</strong> of Dr. Sapir's integrative approach, bringing together the wisdom of Eastern healing traditions with practical tools for modern wellness.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        function openBioModal() {
+            document.getElementById('bioModal').style.display = 'block';
+        }
+
+        function closeBioModal() {
+            document.getElementById('bioModal').style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            const modal = document.getElementById('bioModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
